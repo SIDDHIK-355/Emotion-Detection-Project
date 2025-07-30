@@ -1,9 +1,9 @@
-## Emotion Detection CNN Activation Map Visualization
+# Emotion Detection CNN Activation Map Visualization
 
 This project implements visualization techniques to understand how Convolutional Neural Networks (CNNs) detect emotions from facial expressions by analyzing activation maps and feature representations at different layers.
 
-## 🔍 Overview
-# This project provides tools to:
+# 🔍 Overview
+## This project provides tools to:
 
 Visualize CNN activation maps for emotion detection
 Analyze which image regions activate specific CNN filters
