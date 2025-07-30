@@ -13,17 +13,17 @@ Create comprehensive visualizations of model behavior across different emotions
 
 
 ## ✨ Features
-✅ Visualization Capabilities
-✅ Layer-wise Activation Maps: Visualize activations at each convolutional layer
-✅ GradCAM Heatmaps: Highlight important regions for emotion classification
-✅ Feature Map Analysis: Average and maximum activation visualizations
-✅ Multi-emotion Comparison: Side-by-side analysis of different emotions
+- ✅ Visualization Capabilities
+- ✅ Layer-wise Activation Maps: Visualize activations at each convolutional layer
+- ✅ GradCAM Heatmaps: Highlight important regions for emotion classification
+- ✅ Feature Map Analysis: Average and maximum activation visualizations
+- ✅ Multi-emotion Comparison: Side-by-side analysis of different emotions
 
 ## Evaluation Metrics
-Classification Report: Precision, Recall, F1-Score for each emotion
-Confusion Matrix: Normalized and absolute confusion matrices
-Per-class Performance: Individual emotion class performance analysis
-Overall Accuracy: Model-wide performance metrics
+- Classification Report: Precision, Recall, F1-Score for each emotion
+- Confusion Matrix: Normalized and absolute confusion matrices
+- Per-class Performance: Individual emotion class performance analysis
+- Overall Accuracy: Model-wide performance metrics
 
 
 
