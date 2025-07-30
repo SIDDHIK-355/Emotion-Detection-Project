@@ -10,30 +10,8 @@ The project consists of several components:
 3. **Model Evaluation**: Assessing model performance with metrics and visualizations
 4. **Activation Maps Visualization**: Understanding what the CNN "sees" in images
 
-## Project Structure
 
-```
-emotion_activation_maps_project/
-├── src/
-│   ├── data_preparation.py      # Data loading and preprocessing
-│   ├── model_training.py        # CNN model building and training
-│   ├── model_evaluation.py      # Model evaluation and metrics
-│   └── activation_maps.py       # Activation maps visualization
-├── models/                      # Saved model files
-├── activation_maps_output/      # Generated visualizations
-├── notebooks/                   # Jupyter notebooks
-├── requirements.txt             # Python dependencies
-└── README.md                    # This file
-```
-
-## Setup Instructions
-
-1. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Data Organization**:
+ **Data Organization**:
    data is organized as follows:
    ```
    train:test for emotion model/
@@ -55,36 +33,6 @@ emotion_activation_maps_project/
        └── surprise/
    ```
 
-
-
-### 2. Model Training
-```bash
-python model_training.py
-```
-This will:
-- Build a CNN with multiple convolutional layers
-- Train the model on your emotion dataset
-- Save the best model to `models/best_emotion_model.h5`
-
-### 3. Model Evaluation
-```bash
-python model_evaluation.py
-```
-This will:
-- Load the trained model
-- Evaluate performance on test data
-- Generate confusion matrix and classification report
-- Save visualizations to `activation_maps_output/`
-
-### 4. Activation Maps Visualization
-```bash
-python activation_maps.py
-```
-This will:
-- Load the trained model
-- Extract activation maps from convolutional layers
-- Visualize which image regions activate different filters
-- Create overlays showing activation patterns
 
 ## Model Architecture
 
