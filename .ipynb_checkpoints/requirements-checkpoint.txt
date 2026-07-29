@@ -1,7 +1,0 @@
-
-- Python 3.7+
-- TensorFlow 2.8+
-- OpenCV
-- Matplotlib
-- Seaborn
-- Scikit-learn
